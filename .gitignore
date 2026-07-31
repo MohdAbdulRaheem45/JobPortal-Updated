@@ -1,0 +1,23 @@
+# Backend
+JobPortal Backend/JobPortal/target/
+JobPortal Backend/JobPortal/.mvn/wrapper/maven-wrapper.jar
+JobPortal Backend/JobPortal/*.log
+
+# IntelliJ
+.idea/
+*.iml
+
+# VS Code
+.vscode/
+
+# Frontend
+jobportal-frontend/node_modules/
+jobportal-frontend/dist/
+
+# Environment files
+.env
+.env.*
+
+# OS
+.DS_Store
+Thumbs.db

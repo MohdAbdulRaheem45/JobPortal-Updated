@@ -1,0 +1,136 @@
+@import "tailwindcss";
+
+@theme {
+  --font-display: "Space Grotesk", sans-serif;
+  --font-body: "Inter", sans-serif;
+  --font-mono: "JetBrains Mono", monospace;
+
+  --color-void: #0b0620;
+  --color-void-2: #130a2e;
+  --color-violet: #8b5cf6;
+  --color-violet-dim: #6d28d9;
+  --color-magenta: #db2777;
+  --color-pink: #f472b6;
+  --color-cyan: #22d3ee;
+  --color-lime: #a3e635;
+  --color-amber: #fbbf24;
+  --color-rose: #fb7185;
+  --color-ink: #f5f3ff;
+  --color-muted: #b4afd1;
+  --color-faint: #7a749c;
+}
+
+html, body, #root {
+  height: 100%;
+}
+
+body {
+  font-family: var(--font-body);
+  background: var(--color-void);
+  color: var(--color-ink);
+  -webkit-font-smoothing: antialiased;
+  overflow-x: hidden;
+}
+
+h1, h2, h3, h4, .font-display {
+  font-family: var(--font-display);
+  letter-spacing: -0.01em;
+}
+
+.font-mono {
+  font-family: var(--font-mono);
+}
+
+/* Aurora ambient background — signature element, fixed behind everything */
+.aurora-field {
+  position: fixed;
+  inset: 0;
+  z-index: 0;
+  overflow: hidden;
+  pointer-events: none;
+}
+
+.aurora-blob {
+  position: absolute;
+  border-radius: 9999px;
+  filter: blur(90px);
+  opacity: 0.45;
+  animation: drift 22s ease-in-out infinite;
+}
+
+.aurora-blob.b1 {
+  width: 42rem;
+  height: 42rem;
+  top: -14rem;
+  left: -10rem;
+  background: radial-gradient(circle at 30% 30%, var(--color-violet), transparent 70%);
+  animation-delay: 0s;
+}
+
+.aurora-blob.b2 {
+  width: 38rem;
+  height: 38rem;
+  bottom: -16rem;
+  right: -8rem;
+  background: radial-gradient(circle at 60% 40%, var(--color-magenta), transparent 70%);
+  animation-delay: -8s;
+}
+
+.aurora-blob.b3 {
+  width: 34rem;
+  height: 34rem;
+  top: 30%;
+  right: 15%;
+  background: radial-gradient(circle at 50% 50%, var(--color-cyan), transparent 70%);
+  animation-delay: -14s;
+  opacity: 0.3;
+}
+
+@keyframes drift {
+  0%, 100% { transform: translate(0, 0) scale(1); }
+  33% { transform: translate(4%, 6%) scale(1.08); }
+  66% { transform: translate(-3%, -4%) scale(0.95); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .aurora-blob { animation: none; }
+}
+
+/* Glass surface utility */
+.glass {
+  background: rgba(255, 255, 255, 0.055);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+}
+
+.glass-strong {
+  background: rgba(255, 255, 255, 0.09);
+  backdrop-filter: blur(24px);
+  -webkit-backdrop-filter: blur(24px);
+  border: 1px solid rgba(255, 255, 255, 0.16);
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.15);
+  border-radius: 999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(255, 255, 255, 0.25);
+}
+
+input::placeholder, textarea::placeholder {
+  color: var(--color-faint);
+}
+
+*:focus-visible {
+  outline: 2px solid var(--color-cyan);
+  outline-offset: 2px;
+}
