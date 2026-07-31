@@ -1,4 +1,4 @@
-# 🚀 AI Powered Job Portal
+# 🚀 AI Powered Job Portal(ORBIT)
 
 A full-stack AI-powered Job Portal built using **Spring Boot**, **React**, **MySQL**, and **Docker**.
 
