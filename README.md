@@ -12,37 +12,51 @@ The application allows recruiters to post jobs, job seekers to apply for jobs, a
 
 ## Landing Page
 
-![Landing](README-assets/landing.png)
+<img width="1277" height="843" alt="image" src="https://github.com/user-attachments/assets/adf156f8-74c3-418e-adf8-2d1f7731dce9" />
+
 
 ---
 
 ## Login
 
-![Login](README-assets/login.png)
+<img width="1265" height="798" alt="image" src="https://github.com/user-attachments/assets/cdbc3033-4564-4099-9c58-7922b8f0f1e9" />
+<img width="1152" height="790" alt="image" src="https://github.com/user-attachments/assets/293b97b9-66a6-4dbb-954d-feed09b67205" />
+
+
 
 ---
 
 ## Dashboard
 
-![Dashboard](README-assets/dashboard.png)
+<img width="1279" height="832" alt="image" src="https://github.com/user-attachments/assets/a2d23727-1ffb-4b28-9fec-4d4b3727b0ca" />
+
 
 ---
 
 ## Jobs
 
-![Jobs](README-assets/jobs.png)
+<img width="1266" height="831" alt="image" src="https://github.com/user-attachments/assets/ccfde418-6041-42a0-8709-12f05c04c5bd" />
 
 ---
 
-## Profile
+## Notifications And applications
 
-![Profile](README-assets/profile.png)
+
+<img width="1267" height="850" alt="image" src="https://github.com/user-attachments/assets/b1eb1410-cfff-4c0d-8e86-dd0331ec109d" />
+<img width="1265" height="816" alt="image" src="https://github.com/user-attachments/assets/67ec7207-203a-46ac-8f1b-2a0d8f476d9f" />
+
+
 
 ---
 
 ## Resume Analyzer
 
-![Resume Analyzer](README-assets/resume-analyzer.png)
+<img width="1261" height="844" alt="image" src="https://github.com/user-attachments/assets/cbabfebf-3548-4304-a38e-561a65dd9417" />
+<img width="759" height="430" alt="image" src="https://github.com/user-attachments/assets/5fac5d99-4b65-4469-9c58-85e358ef8e67" />
+<img width="782" height="759" alt="image" src="https://github.com/user-attachments/assets/a830fc90-4ca8-45d5-a9c5-35aaf6c9ca4e" />
+
+
+
 
 ---
 
