@@ -8,8 +8,6 @@ The application allows recruiters to post jobs, job seekers to apply for jobs, a
 
 # 📸 Screenshots
 
-> Add your screenshots here after uploading them to GitHub.
-
 ## Landing Page
 
 <img width="1277" height="843" alt="image" src="https://github.com/user-attachments/assets/adf156f8-74c3-418e-adf8-2d1f7731dce9" />
